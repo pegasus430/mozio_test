@@ -4,7 +4,15 @@
  - Created a specific endpoint that takes a lat/lng pair as arguments and return a list of all polygons that include the given lat/lng. The name of the polygon, provider's name, and price should be returned for each polygon
 
 ## standard api endpoint
+### swagger 
 ```bash
+http://ec2-15-222-8-181.ca-central-1.compute.amazonaws.com:8000/api/providers
+```
+
+### API 
+
+```bash
+
 http://ec2-15-222-8-181.ca-central-1.compute.amazonaws.com:8000/api/providers
 http://ec2-15-222-8-181.ca-central-1.compute.amazonaws.com:8000/api/servicearea
 http://ec2-15-222-8-181.ca-central-1.compute.amazonaws.com:8000/getpolygons/?lat={lat_value}&lng={lng_value}
