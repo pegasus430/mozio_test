@@ -1,0 +1,11 @@
+
+{
+  "title" : "geo json information",
+  "type" : "object",
+  "additionalProperties": True,
+  "properties":{
+      "type": {"type": "string"},
+      "coordinates": {"type": "array"},
+      "provider": {"type": "string"},
+  }
+}
