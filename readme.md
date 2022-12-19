@@ -6,7 +6,7 @@
 ## standard api endpoint
 ### swagger 
 ```bash
-http://ec2-15-222-8-181.ca-central-1.compute.amazonaws.com:8000/api/providers
+http://ec2-15-222-8-181.ca-central-1.compute.amazonaws.com:8000/swagger
 ```
 
 ### API 
